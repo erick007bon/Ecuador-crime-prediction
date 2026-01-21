@@ -1,0 +1,149 @@
+====================================================================================================
+📊 RESUMEN EJECUTIVO - DATOS DE HOMICIDIOS ECUADOR 2014-2024
+====================================================================================================
+
+📁 Total registros: 30,538
+📋 Total columnas: 35
+
+----------------------------------------------------------------------------------------------------
+📋 COLUMNAS DISPONIBLES:
+----------------------------------------------------------------------------------------------------
+  1. Unnamed: 0
+  2. tipo_muerte
+  3. zona
+  4. subzona
+  5. distrito
+  6. circuito
+  7. codigo_subcircuito
+  8. subcircuito
+  9. codigo_provincia
+ 10. provincia
+ 11. codigo_canton
+ 12. canton
+ 13. coordenada_y
+ 14. coordenada_x
+ 15. area_hecho
+ 16. lugar
+ 17. tipo_lugar
+ 18. fecha_infraccion
+ 19. hora_infraccion
+ 20. arma
+ 21. tipo_arma
+ 22. presunta_motivacion
+ 23. presun_motiva_observada
+ 24. probable_causa_motivada
+ 25. edad
+ 26. medida_edad
+ 27. sexo
+ 28. genero
+ 29. etnia
+ 30. estado_civil
+ 31. nacionalidad
+ 32. discapacidad
+ 33. profesion_registro_civil
+ 34. instruccion
+ 35. antecedentes
+
+====================================================================================================
+📊 ESTADÍSTICAS CLAVE:
+====================================================================================================
+
+🗓️ HOMICIDIOS POR AÑO:
+   2014: 1,310
+   2015: 1,050
+   2016: 959
+   2017: 970
+   2018: 996
+   2019: 1,189
+   2020: 1,372
+   2021: 2,495
+   2022: 4,886
+   2023: 8,248
+   2024: 7,063
+
+🗺️ TOP 10 PROVINCIAS (de 24 únicas):
+   GUAYAS: 12,861
+   MANABÍ: 3,286
+   LOS RÍOS: 3,136
+   EL ORO: 2,098
+   ESMERALDAS: 2,043
+   PICHINCHA: 2,017
+   STO DGO DE LOS TSÁCHILAS: 749
+   SANTA ELENA: 692
+   SUCUMBÍOS: 616
+   AZUAY: 522
+
+🔫 TIPO DE ARMA:
+   ARMA DE FUEGO: 23,103
+   ARMA BLANCA: 4,581
+   OTROS: 1,226
+   ARMA CONTUNDENTE: 1,006
+   CONSTRICTORA: 583
+   SUSTANCIAS: 39
+
+👤 SEXO VÍCTIMA:
+   HOMBRE: 27,466
+   MUJER: 2,961
+   NO DETERMINADO: 110
+   SIN_DATO: 1
+
+⚠️ PRESUNTA MOTIVACIÓN:
+   DELINCUENCIA COMUN: 23,105
+   VIOLENCIA COMUNITARIA: 5,475
+   VIOLENCIA INTRAFAMILIAR: 1,439
+   TRANSNACIONAL: 387
+   TERRORISMO: 45
+   VIOLENCIA SEXUAL: 45
+   SICOPATOLOGIAS: 41
+   NO DETERMINADA: 1
+
+====================================================================================================
+📌 ANÁLISIS ESPECIAL: EL ORO (MACHALA)
+====================================================================================================
+
+📍 Total homicidios en El Oro: 2,221
+
+📅 Por año:
+   2014: 85
+   2015: 69
+   2016: 70
+   2017: 62
+   2018: 62
+   2019: 97
+   2020: 106
+   2021: 152
+   2022: 304
+   2023: 602
+   2024: 612
+
+🏙️ Por cantón:
+   MACHALA: 870
+   HUAQUILLAS: 325
+   PASAJE: 302
+   EL GUABO: 232
+   SANTA ROSA: 190
+   ARENILLAS: 116
+   MORONA: 42
+   PORTOVELO: 23
+   SUCUA: 21
+   ZARUMA: 15
+   GUALAQUIZA: 12
+   TAISHA: 12
+   PALORA: 12
+   PINAS: 9
+   LIMON INDANZA: 8
+   ATAHUALPA: 4
+   LAS LAJAS: 4
+   TIWINTZA: 4
+   BALSAS: 4
+   SANTIAGO: 4
+   PABLO SEXTO: 2
+   PIÑAS: 2
+   HUAMBOYA: 2
+   SAN JUAN BOSCO: 2
+   CHILLA: 2
+   LOGRONO: 2
+
+====================================================================================================
+✅ ANÁLISIS COMPLETADO
+====================================================================================================

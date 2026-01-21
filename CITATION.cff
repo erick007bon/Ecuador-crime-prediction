@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Flores Zambrano"
+    given-names: "Erick Reinaldo"
+title: "Ecuador Crime Prediction: Machine Learning Analysis of Criminal Activity"
+version: 1.0.0
+date-released: 2026-01-21
+url: "https://github.com/erick007bon/cuador-crime-prediction"
+repository-code: "https://github.com/erick007bon/cuador-crime-prediction"
+license: MIT
+keywords:
+  - machine-learning
+  - crime-prediction
+  - xgboost
+  - ecuador
+  - data-analysis
+  - homicides
+  - statistics
+  - dashboard
+abstract: >-
+  Análisis predictivo de criminalidad en Ecuador utilizando técnicas de 
+  Machine Learning. El modelo XGBoost alcanza un 96.85% de R² en la 
+  predicción de homicidios. Incluye dashboard interactivo y visualizaciones
+  con datos del Ministerio del Interior (2014-2025).
