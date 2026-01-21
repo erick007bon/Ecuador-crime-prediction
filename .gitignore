@@ -27,6 +27,6 @@ npm-debug.log*
 *.tmp
 *.temp
 
-# Large model files (optional)
-# *.pkl
-# *.joblib
+# Large files (GitHub limit is 100MB)
+datos_limpios/04_detenidos_unificado.csv
+webapp/node_modules/
