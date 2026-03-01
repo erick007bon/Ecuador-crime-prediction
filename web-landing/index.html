@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Agencia AI | Automatización y Trading</title>
+    <!-- Tailwind CSS (CDN para MVP rápido) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Efectos simples y modernos */
+        .hero-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: linear-gradient(to right, #38bdf8, #818cf8);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans leading-normal tracking-normal text-gray-800">
+
+    <!-- Navegación -->
+    <nav class="bg-white shadow-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">🚀 <span class="text-indigo-600">TuAgencia</span>.AI</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#servicios" class="text-gray-600 hover:text-indigo-600 font-medium">Servicios</a>
+                <a href="#portfolio" class="text-gray-600 hover:text-indigo-600 font-medium">Portafolio</a>
+                <a href="#contacto" class="text-gray-600 hover:text-indigo-600 font-medium">Contacto</a>
+            </div>
+            <a href="#contacto" class="bg-indigo-600 text-white px-5 py-2 rounded-full font-semibold hover:bg-indigo-700 transition duration-300 shadow-lg">Hablar con un Experto</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-gradient text-white pt-32 pb-20 px-6 text-center lg:text-left">
+        <div class="container mx-auto flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 mb-10 lg:mb-0">
+                <h1 class="text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+                    Transformamos tu negocio con <span class="text-gradient">Inteligencia Artificial</span> y Datos.
+                </h1>
+                <p class="text-xl text-gray-300 mb-8">
+                    Automatizamos procesos, construimos chatbots inteligentes y desarrollamos sistemas de trading algorítmico rentables. Deja de trabajar en tu negocio y empieza a trabajar para que crezca.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#servicios" class="bg-indigo-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-indigo-700 transition duration-300 shadow-lg shadow-indigo-500/50">
+                        Ver Servicios
+                    </a>
+                    <a href="#contacto" class="border-2 border-gray-400 text-gray-200 px-8 py-4 rounded-full font-bold text-lg hover:border-white hover:text-white transition duration-300">
+                        Auditoría Gratuita
+                    </a>
+                </div>
+            </div>
+            <div class="lg:w-1/2 flex justify-center">
+                <!-- Imagen Placeholder de IA -->
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800&h=600" alt="IA y Tecnología" class="rounded-2xl shadow-2xl border-4 border-gray-800 opacity-90 hover:opacity-100 transition duration-500" />
+            </div>
+        </div>
+    </header>
+
+    <!-- Servicios -->
+    <section id="servicios" class="py-20 px-6 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12 text-gray-900">Nuestras Soluciones <span class="text-indigo-600">Premium</span></h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Servicio 1 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100">
+                    <div class="text-4xl mb-4">🤖</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Agentes de IA y Chatbots</h3>
+                    <p class="text-gray-600">Bots de atención al cliente 24/7 conectados a WhatsApp usando GPT-4 y tus datos corporativos (RAG).</p>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100">
+                    <div class="text-4xl mb-4">📈</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Trading Algorítmico</h3>
+                    <p class="text-gray-600">Desarrollo de bots cuantitativos en Python y backtesting exhaustivo para mercados financieros.</p>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100">
+                    <div class="text-4xl mb-4">📊</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Data Engineering</h3>
+                    <p class="text-gray-600">Pipelines de datos (ETL), dashboards de Business Intelligence (PowerBI) y modelos predictivos (XGBoost).</p>
+                </div>
+
+                <!-- Servicio 4 -->
+                <div class="p-8 bg-gray-50 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100">
+                    <div class="text-4xl mb-4">💻</div>
+                    <h3 class="text-2xl font-bold mb-3 text-gray-800">Desarrollo Web Full-Stack</h3>
+                    <p class="text-gray-600">Landing pages ultra rápidas, plataformas SaaS y aplicaciones web escalables con React y Node.js.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-20 px-6 bg-indigo-600 text-white text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-4xl font-bold mb-6">¿Listo para escalar tu negocio?</h2>
+            <p class="text-xl mb-10 text-indigo-100">La inteligencia artificial no es el futuro, es el presente. Las empresas que no la implementen hoy, quedarán obsoletas mañana. Da el primer paso con nosotros.</p>
+            <a href="#contacto" class="bg-white text-indigo-600 px-10 py-4 rounded-full font-bold text-xl hover:bg-gray-100 transition duration-300 shadow-xl">
+                Agenda tu Consultoría Gratuita
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Simple -->
+    <footer id="contacto" class="bg-gray-900 text-gray-400 py-12 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h3 class="text-2xl font-bold text-white mb-4">🚀 <span class="text-indigo-400">TuAgencia</span>.AI</h3>
+                <p>Ingeniería de software de primer nivel, soluciones impulsadas por IA y análisis de datos enfocados en el ROI (Retorno de Inversión).</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4 text-lg">Contacto</h4>
+                <p>📍 Ciudad, País</p>
+                <p>📧 contacto@tuagencia.com</p>
+                <p>📞 +1 (555) 123-4567</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold mb-4 text-lg">Síguenos</h4>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="#" class="hover:text-white transition">LinkedIn</a>
+                    <a href="#" class="hover:text-white transition">GitHub</a>
+                    <a href="#" class="hover:text-white transition">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-12 pt-8 text-center">
+            <p>&copy; 2026 TuAgencia.AI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
